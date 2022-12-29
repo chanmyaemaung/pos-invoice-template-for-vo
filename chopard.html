@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>VO HTML Chopard Table | Conor</title>
+        <link rel="icon" type="image/svg+xml" href="/dist/images/favicon.svg" />
+        <link rel="icon" type="image/png" href="/dist/images/favicon.png" />
+        <link rel="stylesheet" href="./dist/css/style.css" />
+    </head>
+    <body class="text-bg-light">
+        <div class="container-fluid mt-3 mb-5">
+            <header id="header">
+                <!-- This is the main logo -->
+                <div class="main-logo mb-5">
+                    <img
+                        src="./dist/images/VO-logo-icon.svg"
+                        alt="Visible One Small Banner"
+                        class="d-block mx-auto rounded-circle shadow-sm p-2"
+                        style="width: 50px; height: 50px"
+                    />
+                </div>
+            </header>
+
+            <!-- Invoice References -->
+            <section>
+                <div
+                    class="row mx-auto d-flex justify-content-center align-items-center"
+                >
+                    <!-- Main Title -->
+                    <div class="col-12 col-md-6 mb-3 mb-md-0">
+                        <h1
+                            class="display-5 fs-3 text-center text-md-start text-decoration-underline"
+                            id="vo-main-title"
+                        >
+                            Loading...
+                        </h1>
+                    </div>
+
+                    <!-- Retailer Order -->
+                    <div class="col-12 col-md-6">
+                        <div class="row border rounded-3 shadow-sm">
+                            <div class="col-12 col-md-6" id="retail-border">
+                                <div
+                                    class="d-flex flex-column justify-content-start align-items-center p-2"
+                                >
+                                    <h3 class="fs-6 text-break">
+                                        <span id="vo-retail-title"
+                                            >Loading...</span
+                                        >
+                                        <span
+                                            class="d-block text-info"
+                                            id="vo-retail-sub_title"
+                                            >Loading...</span
+                                        >
+                                    </h3>
+                                    <p class="text-muted" id="vo-addition-text">
+                                        Loading...
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Date-->
+                            <div class="col-12 col-md-6">
+                                <div
+                                    class="d-flex flex-column justify-content-start align-items-start p-2"
+                                >
+                                    <h3 class="fs-6">
+                                        Date: <span id="vo-date"></span>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Remark Note -->
+                <div class="card card-body rounded-3 shadow-sm my-3 border-0">
+                    <h3 class="fs-6">
+                        Remark:
+                        <span class="text-muted display-5 fs-6" id="vo-remark"
+                            >Loading...</span
+                        >
+                    </h3>
+                </div>
+            </section>
+
+            <main id="main">
+                <!-- Table -->
+                <div
+                    class="card card-body rounded-3 shadow-sm border-0 shadow-sm"
+                >
+                    <div
+                        class="table-responsive-sm rounded-2 d-block overflow-auto w-100"
+                    >
+                        <table
+                            class="table table-striped table-hover table-bordered border-light table-sm overflow-auto"
+                        >
+                            <thead>
+                                <tr>
+                                    <th
+                                        scope="col"
+                                        class="text-center align-middle px-3 py-1"
+                                    >
+                                        No
+                                    </th>
+                                    <th
+                                        scope="col"
+                                        class="text-center align-middle px-3 py-1"
+                                    >
+                                        <span class="">Retailer Shop</span>
+                                        <span class="d-block text-info"
+                                            >零售店</span
+                                        >
+                                    </th>
+                                    <th
+                                        scope="col"
+                                        class="text-center align-middle px-3 py-1"
+                                    >
+                                        <span>Contact person</span>
+                                        <span
+                                            class="d-block text-info fw-semibold"
+                                            >聯絡人</span
+                                        >
+                                    </th>
+
+                                    <th
+                                        scope="col"
+                                        class="text-center align-middle px-3 py-1"
+                                    >
+                                        <span>Product item</span>
+                                        <span
+                                            class="d-block text-info fw-semibold"
+                                            >產品項目</span
+                                        >
+                                    </th>
+
+                                    <th
+                                        scope="col"
+                                        class="text-center align-middle px-3 py-1"
+                                    >
+                                        <span>Product Ref#</span>
+                                        <span
+                                            class="d-block text-info fw-semibold"
+                                            >產品編號</span
+                                        >
+                                    </th>
+
+                                    <th
+                                        scope="col"
+                                        class="text-center align-middle px-3 py-1"
+                                    >
+                                        Serial no
+                                        <span
+                                            class="d-block text-info fw-semibold"
+                                            >序列號</span
+                                        >
+                                    </th>
+
+                                    <th
+                                        scope="col"
+                                        class="text-center align-middle px-3 py-1"
+                                    >
+                                        <span>Bracelet strap</span>
+                                        <span
+                                            class="d-block text-info fw-semibold"
+                                            >手鍊錶帶</span
+                                        >
+                                    </th>
+
+                                    <th
+                                        scope="col"
+                                        class="text-center align-middle px-3 py-1"
+                                    >
+                                        <span>Problem to be repaired</span>
+                                        <span
+                                            class="d-block text-info fw-semibold"
+                                            >問題待修復</span
+                                        >
+                                    </th>
+
+                                    <th
+                                        scope="col"
+                                        class="text-center align-middle px-3 py-1"
+                                    >
+                                        <span>Quotation pre-approval</span>
+                                        <span
+                                            class="d-block text-info fw-semibold"
+                                            >報價預批</span
+                                        >
+                                    </th>
+
+                                    <th
+                                        scope="col"
+                                        class="text-center align-middle px-3 py-1"
+                                    >
+                                        <span>Reseller Stock</span>
+                                        <span
+                                            class="d-block text-info fw-semibold"
+                                            >經銷商庫存</span
+                                        >
+                                        <span
+                                            class="d-block text-info fw-semibold"
+                                            >(Yes/No)</span
+                                        >
+                                    </th>
+
+                                    <th
+                                        scope="col"
+                                        class="text-center align-middle px-3 py-1"
+                                    >
+                                        <span>Warranty</span>
+                                        <span
+                                            class="d-block text-info fw-semibold"
+                                            >保修單</span
+                                        >
+                                        <span
+                                            class="d-block text-info fw-semibold"
+                                            >(Yes/No)</span
+                                        >
+                                    </th>
+
+                                    <th
+                                        scope="col"
+                                        class="text-center align-middle px-3 py-1"
+                                    >
+                                        <span>Date of warranty</span>
+                                        <span
+                                            class="d-block text-info fw-semibold"
+                                            >保修日期</span
+                                        >
+                                    </th>
+
+                                    <th
+                                        scope="col"
+                                        class="text-center align-middle px-3 py-1"
+                                    >
+                                        <span>Customer sold in warranty</span>
+                                        <span
+                                            class="d-block text-info fw-semibold"
+                                            >客戶在保修期內售出</span
+                                        >
+                                    </th>
+
+                                    <th
+                                        scope="col"
+                                        class="text-center align-middle px-3 py-1"
+                                    >
+                                        <span>Name of customer</span>
+                                        <span
+                                            class="d-block text-info fw-semibold"
+                                            >客戶姓名</span
+                                        >
+                                    </th>
+
+                                    <th
+                                        scope="col"
+                                        class="text-center align-middle px-3 py-1"
+                                    >
+                                        <span>Oracle#</span>
+                                        <span
+                                            class="d-block text-info fw-semibold"
+                                            >甲骨文</span
+                                        >
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody id="vo-table-data"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <script src="./dist/js/vo.js"></script>
+    </body>
+</html>

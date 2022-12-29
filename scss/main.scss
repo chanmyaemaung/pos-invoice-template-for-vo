@@ -1,0 +1,25 @@
+@use "bootstrap";
+
+// Remove the border when focusing the search input
+.vo-input-focus,
+input[type="text"],
+input[type="email"] {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  #retail-border {
+    border-right: var(--bs-border-width) var(--bs-border-style)
+      var(--bs-border-color) !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .adjust-width-input {
+    width: 30% !important;
+  }
+
+  .vo-full-width {
+    width: 80% !important;
+  }
+}

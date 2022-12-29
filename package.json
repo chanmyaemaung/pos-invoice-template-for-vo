@@ -1,0 +1,26 @@
+{
+  "name": "vo-bt5-table",
+  "version": "1.0.0",
+  "description": "This is the little template that I had created for the VO's project.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/main.scss:dist/css/style.css --style compressed",
+    "dev": "concurrently \"npm run compile:sass\" \"ngrok http 5555\""
+  },
+  "keywords": [
+    "visibleone",
+    "visibleone-hk"
+  ],
+  "author": "Conor <conor@visibleone.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "bootstrap": "^5.2.3",
+    "concurrently": "^7.6.0",
+    "postcss": "^8.4.20",
+    "postcss-cli": "^10.1.0",
+    "postcss-preset-env": "^7.8.3",
+    "prettier": "2.8.1",
+    "sass": "^1.57.1"
+  }
+}
