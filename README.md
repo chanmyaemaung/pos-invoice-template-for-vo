@@ -4,9 +4,11 @@
 
 1. Install the module by using this comment `npm install`
 
-2. Run the module by using this comment `npm run dev`
+2. Run the module by using this comment `npm run compile:sass` to compile the scss files.
 
 3. Open the `index.html` file in the browser with the live server
+
+4. Type ngrok command `ngrok http 5555` to get the link by using the port 5555.
 
 ## Folder Structure
 
