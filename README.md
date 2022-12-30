@@ -14,3 +14,10 @@
 - `scss` folder contains the scss files of the module
 - `chopard.html` is the template file of Chopard
 - `rolex.html` is the template file of Rolex
+
+## Available Template
+
+- Chopard
+- Rolex
+- Richmont
+- Swatch Group

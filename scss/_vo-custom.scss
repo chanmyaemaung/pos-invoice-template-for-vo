@@ -1,0 +1,45 @@
+.form-control:focus {
+  border-color: unset;
+  box-shadow: none;
+}
+
+.fs-ruso {
+  font-family: "Russo One", sans-serif;
+}
+
+.w-md-60 {
+  width: 85% !important;
+}
+
+.w-md-45 {
+  width: 45% !important;
+}
+
+@media (min-width: 768px) {
+  #retail-border {
+    border-right: var(--bs-border-width) var(--bs-border-style)
+      var(--bs-border-color) !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .adjust-width-input {
+    width: 30% !important;
+  }
+
+  .vo-full-width {
+    width: 80% !important;
+  }
+
+  .w-sm-100 {
+    width: 100% !important;
+  }
+
+  .w-sm-45 {
+    width: 45% !important;
+  }
+
+  .remove-border-right {
+    border-right: none !important;
+  }
+}
