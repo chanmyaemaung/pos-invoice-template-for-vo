@@ -20,6 +20,14 @@
     border-right: var(--bs-border-width) var(--bs-border-style)
       var(--bs-border-color) !important;
   }
+
+  .w-md-30 {
+    width: 30% !important;
+  }
+
+  .w-md-10 {
+    width: 10% !important;
+  }
 }
 
 @media (max-width: 767px) {

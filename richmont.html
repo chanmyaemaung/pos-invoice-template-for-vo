@@ -4,1012 +4,874 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VO HTML Richmont Table | Conor</title>
+    <title>VO HTML Richmont | Conor</title>
     <link rel="icon" type="image/svg+xml" href="/dist/images/favicon.svg" />
     <link rel="icon" type="image/png" href="/dist/images/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./dist/css/style.css" />
   </head>
-  <body class="text-bg-light">
-    <div class="container p-3 bg-white my-2 shadow-sm rounded">
-      <header class="header">
-        <h1 class="text-uppercase fs-1 text-center display-6">richmont</h1>
+  <body
+    style="
+      background-image: url('./dist/images/papger-bg.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 100%;
+    "
+  >
+    <header class="header text-uppercase text-center my-3">
+      <div class="container">
+        <h1>richmont</h1>
+        <p class="border border-secondary mt-5 py-2 fs-4 fw-bold">
+          service request form
+        </p>
+      </div>
+    </header>
 
-        <div
-          class="card card-body shadow-sm text-center text-info text-uppercase my-3 fs-5"
-        >
-          Service Request Form
-        </div>
-      </header>
-
+    <main class="main">
       <form>
-        <!-- Company Information -->
-        <section id="company-info" class="mt-5 card card-body shadow-sm">
+        <!-- Section 1 -->
+        <section class="container mt-4 mb-3">
           <h3
-            class="text-uppercase text-center text-md-start text-info fs-6 text-decoration-underline"
+            class="fs-5 text-decoration-underline text-uppercase text-center text-md-start text-info"
           >
             Company Information
           </h3>
 
           <div class="row">
-            <div class="col-12 col-md-6 mt-4 my-md-3">
-              <!-- Company Name -->
-              <div
-                class="d-flex justify-content-between align-items-center mb-3"
-              >
-                <span
-                  class="input-group-text text-center w-25 text-md-start fw-light"
-                  >*Comapny Name:</span
-                >
-                <input
-                  type="text"
-                  class="form-control ms-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                  aria-label="company-name"
-                  aria-describedby="company-name"
-                />
+            <!-- First Company Information Group -->
+            <div
+              class="col-lg-6 d-md-flex flex-column justify-content-md-between align-items-md-center"
+            >
+              <!-- Company name -->
+              <div class="input-group mb-2">
+                <div class="d-flex align-items-end w-100 w-md-30">
+                  * Company name:
+                </div>
+
+                <div class="flex-grow-1 ms-3">
+                  <input
+                    type="text"
+                    class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0"
+                  />
+                </div>
               </div>
-              <!-- Contact Name -->
-              <div
-                class="d-flex justify-content-between align-items-center mb-3"
-              >
-                <span
-                  class="input-group-text w-25 text-center text-md-start fw-light"
-                  >*Contact Name:</span
-                >
-                <input
-                  type="text"
-                  class="form-control ms-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                />
+
+              <!-- Contact name -->
+              <div class="input-group mb-2">
+                <div class="d-flex align-items-end w-100 w-md-30">
+                  * Contact name:
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <input
+                    type="text"
+                    class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0"
+                  />
+                </div>
               </div>
-              <!-- Ship to Announce No. -->
-              <div
-                class="d-flex justify-content-between align-items-center mb-3"
-              >
-                <span
-                  class="input-group-text w-25 adjust-width-input text-center text-md-start fw-light"
-                  >*Ship to Announce No.:</span
-                >
-                <input
-                  type="text"
-                  class="form-control ms-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                  aria-label="company-name"
-                  aria-describedby="company-name"
-                />
+
+              <!-- Ship to announce number -->
+              <div class="input-group mb-2">
+                <div class="d-flex align-items-end w-100 w-md-30">
+                  * Ship to Amount No. :
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <input
+                    type="text"
+                    class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0"
+                  />
+                </div>
               </div>
-              <!-- Your Reference -->
-              <div
-                class="d-flex justify-content-between align-items-center mb-3"
-              >
-                <span
-                  class="input-group-text w-25 text-center text-md-start fw-light"
-                  >*Your Reference:</span
-                >
-                <input
-                  type="text"
-                  class="form-control ms-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                  aria-label="company-name"
-                  aria-describedby="company-name"
-                />
+
+              <!-- Your reference -->
+              <div class="input-group mb-2">
+                <div class="d-flex align-items-end w-100 w-md-30">
+                  &nbsp; Your reference :
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <input
+                    type="text"
+                    class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0"
+                  />
+                </div>
               </div>
             </div>
 
-            <div class="col-12 col-md-6 mt-4 my-md-3">
+            <!-- Second Company Information Group -->
+            <div
+              class="col-lg-6 d-md-flex flex-column justify-content-md-between align-items-md-center"
+            >
               <!-- Date -->
-              <div
-                class="d-flex justify-content-between align-items-center mb-3"
-              >
-                <span
-                  class="input-group-text w-25 text-center text-md-start fw-light"
-                  >*Date:</span
-                >
-                <input
-                  type="text"
-                  class="form-control ms-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                />
+              <div class="input-group mb-2">
+                <div class="d-flex align-items-end w-100 w-md-30">* Date:</div>
+
+                <div class="flex-grow-1 ms-3">
+                  <input
+                    type="text"
+                    class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0"
+                  />
+                </div>
               </div>
-              <!-- Location/Branch -->
-              <div
-                class="d-flex justify-content-between align-items-center mb-3"
-              >
-                <span
-                  class="input-group-text w-25 text-center text-md-start fw-light"
-                  >*Location &#47; Branch:</span
-                >
-                <input
-                  type="text"
-                  class="form-control ms-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                  aria-label="company-name"
-                  aria-describedby="company-name"
-                />
+
+              <!-- Location / Branch -->
+              <div class="input-group mb-2">
+                <div class="d-flex align-items-end w-100 w-md-30">
+                  * Location / Branch:
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <input
+                    type="text"
+                    class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0"
+                  />
+                </div>
               </div>
+
               <!-- Phone -->
-              <div
-                class="d-flex justify-content-between align-items-center mb-3"
-              >
-                <span
-                  class="input-group-text w-25 text-center text-md-start fw-light"
-                  >*Phone:</span
-                >
-                <input
-                  type="text"
-                  class="form-control ms-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                  aria-label="company-name"
-                  aria-describedby="company-name"
-                />
+              <div class="input-group mb-2">
+                <div class="d-flex align-items-end w-100 w-md-30">* Phone:</div>
+                <div class="flex-grow-1 ms-3">
+                  <input
+                    type="text"
+                    class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0"
+                  />
+                </div>
               </div>
+
               <!-- Email -->
-              <div
-                class="d-flex justify-content-between align-items-center mb-3"
-              >
-                <span
-                  class="input-group-text w-25 text-center text-md-start fw-light"
-                  >*Email:</span
-                >
-                <input
-                  type="text"
-                  class="form-control ms-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                  aria-label="company-name"
-                  aria-describedby="company-name"
-                />
+              <div class="input-group mb-2">
+                <div class="d-flex align-items-end w-100 w-md-30">
+                  &nbsp; Email:
+                </div>
+                <div class="flex-grow-1 ms-3">
+                  <input
+                    type="email"
+                    class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0"
+                  />
+                </div>
               </div>
             </div>
           </div>
         </section>
 
-        <!-- Product Information -->
-        <section id="product-condition" class="mt-3 card card-body shadow-sm">
+        <!-- Section 2 -->
+        <section class="container mt-4 mb-3">
           <h3
-            class="text-uppercase text-center text-md-start text-info fs-6 text-decoration-underline"
+            class="fs-5 text-decoration-underline text-uppercase text-center text-md-start text-info"
           >
             Product Information
           </h3>
 
           <!-- Brand -->
-          <div class="row">
-            <div class="col-md-2 mt-4 my-md-3">
-              <span
-                class="text-center text-md-start d-block d-md-inline fw-light"
-                >*Brand
-              </span>
+          <div class="row align-items-center my-3 my-md-0">
+            <div class="col-lg-2 mb-2 mb-md-0">
+              <span class="fw-semibold">* Brand</span>
             </div>
 
-            <div
-              class="col-md-10 my-md-3 d-flex flex-column flex-md-row justify-content-start justify-content-between align-items-md-center"
-            >
-              <span>
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">ALS</label>
-              </span>
-              <span>
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">BM</label>
-              </span>
-              <span>
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">CAR</label>
-              </span>
-              <span>
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">DUN</label>
-              </span>
-              <span>
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">DWC</label>
-              </span>
-              <span>
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">ULC</label>
-              </span>
-              <span>
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">MB</label>
-              </span>
-              <span>
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">FAM</label>
-              </span>
-              <span>
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">FIA</label>
-              </span>
-              <span>
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">RDU</label>
-              </span>
-              <span>
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">RL</label>
-              </span>
-              <span>
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">YAC</label>
-              </span>
-              <span>
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">YAG</label>
-              </span>
+            <div class="col-lg">
+              <div class="row">
+                <span class="col-4 col-lg mb-2">
+                  <input type="checkbox" class="form-check-input" />
+                  <label for="">ALS</label>
+                </span>
+
+                <span class="col-4 col-lg mb-2">
+                  <input type="checkbox" class="form-check-input" />
+                  <label for="">BM</label>
+                </span>
+
+                <span class="col-4 col-lg mb-2">
+                  <input type="checkbox" class="form-check-input" />
+                  <label for="">CAR</label>
+                </span>
+
+                <span class="col-4 col-lg mb-2">
+                  <input type="checkbox" class="form-check-input" />
+                  <label for="">DUN</label>
+                </span>
+
+                <span class="col-4 col-lg mb-2">
+                  <input type="checkbox" class="form-check-input" />
+                  <label for="">FWC</label>
+                </span>
+
+                <span class="col-4 col-lg mb-2">
+                  <input type="checkbox" class="form-check-input" />
+                  <label for="">OLC</label>
+                </span>
+
+                <span class="col-4 col-lg mb-2">
+                  <input type="checkbox" class="form-check-input" />
+                  <label for="">MB</label>
+                </span>
+
+                <span class="col-4 col-lg mb-2">
+                  <input type="checkbox" class="form-check-input" />
+                  <label for="">FAN</label>
+                </span>
+
+                <span class="col-4 col-lg mb-2">
+                  <input type="checkbox" class="form-check-input" />
+                  <label for="">FIA</label>
+                </span>
+
+                <span class="col-4 col-lg mb-2">
+                  <input type="checkbox" class="form-check-input" />
+                  <label for="">RDU</label>
+                </span>
+
+                <span class="col-4 col-lg mb-2">
+                  <input type="checkbox" class="form-check-input" />
+                  <label for="">RL</label>
+                </span>
+
+                <span class="col-4 col-lg mb-2">
+                  <input type="checkbox" class="form-check-input" />
+                  <label for="">VAC</label>
+                </span>
+
+                <span class="col-4 col-lg mb-2">
+                  <input type="checkbox" class="form-check-input" />
+                  <label for="">VAG</label>
+                </span>
+              </div>
             </div>
           </div>
 
-          <!-- 1st Product Row -->
-          <div class="row">
-            <div class="col-md-2 mt-4 my-md-3">
-              <span
-                class="text-center text-md-start d-block d-md-inline fw-light"
-                >*Product
-              </span>
+          <!-- Product -->
+          <div class="row align-items-center my-3">
+            <div class="col-lg-2 mb-2 mb-md-0">
+              <span class="fw-semibold">* Product</span>
             </div>
 
-            <div
-              class="col-md-10 my-md-3 d-flex flex-column flex-md-row justify-content-start align-items-start"
-            >
-              <span class="me-auto">
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">Sample One</label>
-              </span>
-              <span class="me-auto">
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">Sample Two</label>
-              </span>
-              <span class="me-auto">
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">Sample Three</label>
-              </span>
-              <span class="me-auto">
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">Sample Four</label>
-              </span>
+            <div class="col-lg-10">
+              <div class="row">
+                <span class="col-6 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your Label</label>
+                </span>
+
+                <span class="col-6 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your Label</label>
+                </span>
+
+                <span class="col-6 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your Label</label>
+                </span>
+
+                <span class="col-6 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your Label</label>
+                </span>
+              </div>
             </div>
           </div>
 
-          <!-- 2nd Product Row -->
-          <div class="row">
-            <div class="col-md-2 mt-4 my-md-3">
-              <span
-                class="text-center text-md-start d-block d-md-inline opacity-0 d-none d-md-block"
-                >Product
-              </span>
+          <!-- Product - sub1 -->
+          <div class="row align-items-end my-3">
+            <div class="col-lg-2 opacity-0">
+              <span class="fw-semibold">* Product</span>
             </div>
 
-            <div
-              class="col-md-10 d-flex flex-column flex-md-row justify-content-start justify-content-md-between align-items-start align-items-md-center"
-            >
-              <p>For Incident Note 6hr</p>
-              <input
-                type="text"
-                class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-              />
-              <p class="my-3 my-md-auto">12hr</p>
-              <input
-                type="text"
-                class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-              />
-              <p class="my-3 my-md-auto">Write something else.</p>
+            <div class="col-lg-10">
+              <div class="row align-items-end">
+                <div class="col-md">
+                  <div class="input-group mb-2">
+                    <div class="d-flex align-items-end">Put your label</div>
+
+                    <div class="flex-grow-1 ms-md-3">
+                      <input
+                        type="text"
+                        class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md">
+                  <div class="input-group mb-2">
+                    <div class="d-flex align-items-end w-sm-100">12hr</div>
+
+                    <div class="flex-grow-1 ms-md-3">
+                      <input
+                        type="text"
+                        class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md">Describe your information...</div>
+              </div>
             </div>
           </div>
 
-          <!-- 3rd Product Row -->
-          <div class="row">
-            <div class="col-md-2 mt-4 my-md-3">
-              <span
-                class="text-center text-md-start d-block d-md-inline opacity-0 d-none d-md-block"
-                >Product
-              </span>
+          <!-- Product - sub2 -->
+          <div class="row align-items-end my-3">
+            <div class="col-lg-2 opacity-0">
+              <span class="fw-semibold">* Product</span>
             </div>
 
-            <div
-              class="col-md-10 my-md-3 d-flex flex-column flex-md-row justify-content-md-between align-items-center"
-            >
-              <div class="align-self-start">
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">Jewellary</label>
+            <div class="col-lg-10">
+              <div class="row align-items-end">
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your Label</label>
+                </span>
+
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your Label</label>
+                </span>
+
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your Label</label>
+                </span>
+
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your Label</label>
+                </span>
+
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Others</label>
+                </span>
+
+                <div class="col-6 col-md-1 mb-2 flex-grow-1">
+                  <input
+                    type="text"
+                    class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0 pt-md-0 w-sm-100"
+                  />
+                </div>
               </div>
-              <div class="align-self-start ms-md-3">
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">Something</label>
-              </div>
-              <div class="align-self-start ms-md-3">
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">Leather</label>
-              </div>
-              <div class="align-self-start ms-md-3">
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">Other</label>
-              </div>
-              <input
-                type="text"
-                class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-              />
             </div>
           </div>
 
-          <!-- 4th Product Row -->
-          <div class="row">
-            <div class="col-md-2 mt-4 my-md-3">
-              <span
-                class="text-center text-md-start d-block d-md-inline opacity-0 d-none d-md-block"
-                >Product
-              </span>
+          <!-- Product - sub3 -->
+          <div class="row align-items-end my-3">
+            <div class="col-lg-2 opacity-0">
+              <span class="fw-semibold">* Product</span>
             </div>
 
-            <div
-              class="col-md-10 my-md-3 d-md-inline-flex justify-content-start justify-content-md-between align-items-md-center"
-            >
-              <span>
-                <input type="checkbox" class="form-check-input" />
-                <label class="form-check-label">Write something else</label>
-              </span>
+            <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+              <input type="checkbox" class="form-check-input me-1" />
+              <label for="">Your label</label>
+            </span>
+
+            <div class="col-6 col-md-1 mb-2 flex-grow-1">
               <input
                 type="text"
-                class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 flex-grow-1 bg-transparent"
+                class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0 pt-md-0 w-sm-100"
               />
             </div>
           </div>
 
           <!-- Product Description -->
-          <div class="row">
-            <div class="col-md-2 mt-4 my-md-3">
-              <span
-                class="text-center text-md-start d-block d-md-inline fw-light"
-                >Product Description:</span
+          <div class="row align-items-end my-3">
+            <div class="col-lg-2 mb-2 mb-md-0">
+              <span class="fw-semibold">
+                <span class="d-none d-md-block">&nbsp;</span>
+                Product Description</span
               >
             </div>
 
-            <div
-              class="col-md-10 d-flex flex-column flex-md-row justify-content-start justify-content-md-between align-items-start align-items-md-center"
-            >
+            <div class="col-6 col-md-1 mb-2 flex-grow-1">
               <input
                 type="text"
-                class="form-control border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                aria-label="company-name"
-                aria-describedby="company-name"
+                class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0 pt-md-0 w-sm-100"
               />
-              <p class="my-3 my-md-auto">Model Reference:</p>
+            </div>
+
+            <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+              <label for="">Your label will goes here!</label>
+            </span>
+
+            <div class="col-6 col-md-1 mb-2 flex-grow-1">
               <input
                 type="text"
-                class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
+                class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0 pt-md-0 w-sm-100"
               />
             </div>
           </div>
 
-          <!-- Serial No -->
-          <div class="row">
-            <div class="col-md-2 mt-4 my-md-3">
-              <span
-                class="text-center text-md-start d-block d-md-inline fw-light"
-                >*Serial no:</span
-              >
+          <!-- Serial no -->
+          <div class="row align-items-end my-3">
+            <div class="col-lg-2">
+              <span class="fw-semibold">* Serial no.:</span>
             </div>
 
-            <div
-              class="col-md-10 d-flex flex-column flex-md-row justify-content-start align-items-start"
-            >
+            <div class="col-6 col-md-1 mb-2 flex-grow-1">
               <input
                 type="text"
-                class="form-control border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                aria-label="company-name"
-                aria-describedby="company-name"
+                class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0 pt-md-0 w-sm-100"
               />
             </div>
           </div>
 
           <!-- Material -->
-          <div class="row">
-            <div class="col-md-2 mt-4 my-md-3">
-              <span
-                class="text-center text-md-start d-block d-md-inline fw-light"
-                >Material
-              </span>
+          <div class="row align-items-end my-3">
+            <div class="col-lg-2 mb-2 mb-md-0">
+              <span class="fw-semibold">
+                <span class="d-none d-md-block">&nbsp;</span>
+                Material:</span
+              >
             </div>
 
-            <div
-              class="col-md-10 my-md-3 d-flex flex-column flex-md-row align-items-md-center"
-            >
-              <span class="d-inline-block">
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">WG</label>
-              </span>
-              <span class="ps-md-3 d-inline-block">
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">YG</label>
-              </span>
-              <span class="ps-md-3 d-inline-block">
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">RG</label>
-              </span>
-              <span class="ps-md-3 d-inline-block">
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">ST</label>
-              </span>
-              <span class="ps-md-3 d-inline-block">
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">PT</label>
-              </span>
-              <span class="ps-md-3 d-inline-block">
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">TI</label>
-              </span>
-              <span class="ps-md-3 d-flex col">
-                <input
-                  type="checkbox"
-                  name=""
-                  id=""
-                  class="form-check-input me-1"
-                />
-                <label class="form-check-label">Others</label>
-                <input
-                  type="text"
-                  class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                />
-              </span>
-            </div>
-          </div>
+            <div class="col-lg-10">
+              <div class="row align-items-end">
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">WG</label>
+                </span>
 
-          <!-- Material -->
-          <div class="row">
-            <div class="col-md-2 mt-4 my-md-3">
-              <span
-                class="text-center text-md-start d-block d-md-inline fw-light"
-                >*Write something else
-              </span>
-            </div>
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">YG</label>
+                </span>
 
-            <div
-              class="col-md-10 my-md-3 d-flex flex-column flex-md-row align-items-md-center"
-            >
-              <span class="d-inline-block">
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">No</label>
-              </span>
-              <span class="ps-md-3 d-inline-block">
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">Yes</label>
-              </span>
-              <span class="ps-md-3 d-flex col">
-                <label class="form-check-label">Date</label>
-                <input
-                  type="text"
-                  class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                />
-              </span>
-              <span class="ps-md-3 d-inline-block">
-                <p>*Something Stock</p>
-              </span>
-              <span class="ps-md-3 d-inline-block">
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">No</label>
-              </span>
-              <span class="ps-md-3 d-inline-block">
-                <input type="checkbox" name="" id="" class="form-check-input" />
-                <label class="form-check-label">Yes</label>
-              </span>
-              <span class="ps-md-3 d-flex col">
-                <input type="checkbox" class="form-check-input me-md-1" />
-                <label class="form-check-label">Date</label>
-                <input
-                  type="text"
-                  class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                />
-              </span>
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">AG</label>
+                </span>
+
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">ST</label>
+                </span>
+
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">TI</label>
+                </span>
+
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Others</label>
+                </span>
+
+                <div class="col-6 col-md-1 mb-2 flex-grow-1">
+                  <input
+                    type="text"
+                    class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0 pt-md-0 w-sm-100"
+                  />
+                </div>
+              </div>
             </div>
           </div>
 
-          <!-- Last inservation -->
-          <div class="row">
-            <div class="col-md-2 mt-4 my-md-3">
-              <span
-                class="text-center text-md-start d-block d-md-inline fw-light"
-                >Last inservation
-              </span>
+          <!-- Unknown Label -->
+          <div class="row align-items-end my-3">
+            <div class="col-lg-2 mb-2 mb-md-0">
+              <span class="fw-semibold">* Unknown Label:</span>
             </div>
 
-            <div
-              class="col-md-10 my-md-3 d-flex flex-column flex-md-row align-items-md-center"
-            >
-              <span class="d-flex col">
-                <label class="form-check-label">Date</label>
-                <input
-                  type="text"
-                  class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                />
-              </span>
-              <span class="ps-md-3 d-flex col">
-                <label class="form-check-label">Inservation Reference</label>
-                <input
-                  type="text"
-                  class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                />
-              </span>
+            <div class="col-lg-10">
+              <div class="row align-items-end">
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">No</label>
+                </span>
+
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Yes</label>
+                </span>
+
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <label for="">Put your label</label>
+                </span>
+
+                <div class="col-6 col-md-1 mb-2 flex-grow-1">
+                  <input
+                    type="text"
+                    class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0 pt-md-0 w-sm-100"
+                  />
+                </div>
+
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">No</label>
+                </span>
+
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Yes</label>
+                </span>
+
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Date:</label>
+                </span>
+
+                <div class="col-6 col-md-1 mb-2 flex-grow-1">
+                  <input
+                    type="text"
+                    class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0 pt-md-0 w-sm-100"
+                  />
+                </div>
+              </div>
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-md-2 mt-4 my-md-3">
-              <span
-                class="text-center text-md-start d-block d-md-inline fw-light opacity-0"
-                >Last inservation
-              </span>
+          <!-- Last Insurance -->
+          <div class="row align-items-end my-3">
+            <div class="col-lg-2 mb-2 mb-md-0">
+              <span class="fw-semibold">Last Insurance</span>
             </div>
 
-            <!-- 2nd Row Last inservation -->
-            <div
-              class="col-md-10 my-md-3 d-flex flex-column flex-md-row align-items-md-center"
-            >
-              <span class="d-flex col">
-                <label class="form-check-label">Location</label>
-                <input
-                  type="text"
-                  class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                />
-              </span>
-              <span class="ps-md-3 d-flex col">
-                <label class="form-check-label">Type of Reference</label>
-                <input
-                  type="text"
-                  class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                />
-              </span>
+            <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+              <label for="">Your label will goes here!</label>
+            </span>
+
+            <div class="col-6 col-md-1 mb-2 flex-grow-1">
+              <input
+                type="text"
+                class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0 pt-md-0 w-sm-100"
+              />
+            </div>
+
+            <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+              <label for="">Your label will goes here!</label>
+            </span>
+
+            <div class="col-6 col-md-1 mb-2 flex-grow-1">
+              <input
+                type="text"
+                class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0 pt-md-0 w-sm-100"
+              />
+            </div>
+          </div>
+
+          <!-- Last Insurance Sub1-->
+          <div class="row align-items-end my-3">
+            <div class="col-lg-2 opacity-0">
+              <span class="fw-semibold">Last Insurance</span>
+            </div>
+
+            <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+              <label for="">Your label will goes here!</label>
+            </span>
+
+            <div class="col-6 col-md-1 mb-2 flex-grow-1">
+              <input
+                type="text"
+                class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0 pt-md-0 w-sm-100"
+              />
+            </div>
+
+            <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+              <label for="">Your label will goes here!</label>
+            </span>
+
+            <div class="col-6 col-md-1 mb-2 flex-grow-1">
+              <input
+                type="text"
+                class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0 pt-md-0 w-sm-100"
+              />
             </div>
           </div>
         </section>
 
-        <!-- Product Conditions -->
-        <section id="product-condition" class="mt-3 card card-body shadow-sm">
+        <!-- Section 3 -->
+        <section class="container mt-4 mb-3">
           <h3
-            class="text-uppercase text-center text-md-start text-info fs-6 text-decoration-underline"
+            class="fs-5 text-decoration-underline text-uppercase text-center text-md-start text-info"
           >
             * Product Condition According To Sender
           </h3>
 
-          <!-- Overall -->
-          <div class="row">
-            <div class="col-md-2 mt-4 my-md-3">
-              <span
-                class="text-center text-md-start d-block d-md-inline fw-light"
-                >Overall
-              </span>
-            </div>
+          <!-- First Row -->
+          <div class="row align-items-end my-3">
+            <div class="col-md">
+              <div class="row align-items-end">
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your Label</label>
+                </span>
 
-            <div
-              class="col-md-10 d-flex flex-column flex-md-row justify-content-start align-items-md-center"
-            >
-              <span class="d-md-flex col me-md-3">
-                <input type="checkbox" class="form-check-input me-md-1" />
-                <label class="form-check-label">Watch Stopped Working</label>
-              </span>
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your Label</label>
+                </span>
 
-              <span class="d-md-flex col">
-                <input type="checkbox" class="form-check-input me-md-1" />
-                <label class="form-check-label"
-                  >Do something / Do something</label
-                >
-              </span>
-            </div>
-          </div>
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your Label</label>
+                </span>
 
-          <!-- 2nd Overall Row-->
-          <div class="row">
-            <div class="col-md-2 mt-md-4 my-md-3">
-              <span
-                class="text-center text-md-start d-block d-md-inline fw-light opacity-0 d-none d-md-block"
-                >Overall
-              </span>
-            </div>
-
-            <div
-              class="col-md-10 d-flex flex-column flex-md-row justify-content-start align-items-md-center"
-            >
-              <span class="d-md-flex col me-md-3">
-                <input type="checkbox" class="form-check-input me-md-1" />
-                <label class="form-check-label">Time FAST by</label>
-                <input
-                  type="text"
-                  class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                />
-              </span>
-
-              <span class="d-md-flex col mt-3 mt-md-auto">
-                <input type="checkbox" class="form-check-input me-md-1" />
-                <label class="form-check-label">Time SLOW by</label>
-                <input
-                  type="text"
-                  class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                />
-              </span>
-            </div>
-          </div>
-
-          <!-- Crown -->
-          <div class="row">
-            <div class="col-md-2 mt-4 my-md-3">
-              <span
-                class="text-center text-md-start d-block d-md-inline fw-light"
-                >Crown
-              </span>
-            </div>
-
-            <div
-              class="col-md-10 d-flex flex-column flex-md-row justify-content-start align-items-md-center"
-            >
-              <span class="d-md-flex col me-md-3">
-                <input type="checkbox" class="form-check-input me-md-1" />
-                <label class="form-check-label">Do something else</label>
-                <input
-                  type="text"
-                  class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                />
-              </span>
-
-              <span class="d-md-flex col me-md-auto">
-                <input type="checkbox" class="form-check-input me-md-1" />
-                <label class="form-check-label">Do something else</label>
-                <input
-                  type="text"
-                  class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                />
-              </span>
-            </div>
-          </div>
-
-          <!-- Crystal -->
-          <div class="row">
-            <div class="col-md-2 mt-4 my-md-3">
-              <span
-                class="text-center text-md-start d-block d-md-inline fw-light"
-                >Crystal
-              </span>
-            </div>
-
-            <div
-              class="col-md-10 d-flex flex-column flex-md-row justify-content-start align-items-md-center"
-            >
-              <span class="d-md-flex col me-md-3">
-                <input type="checkbox" class="form-check-input me-md-1" />
-                <label class="form-check-label">Do something else</label>
-                <input
-                  type="text"
-                  class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                />
-              </span>
-
-              <span class="d-md-flex col me-md-auto">
-                <input type="checkbox" class="form-check-input me-md-1" />
-                <label class="form-check-label">Do something else</label>
-                <input
-                  type="text"
-                  class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                />
-              </span>
-            </div>
-          </div>
-
-          <!-- Dial -->
-          <div class="row">
-            <div class="col-md-2 mt-4 my-md-3">
-              <span
-                class="text-center text-md-start d-block d-md-inline fw-light"
-                >Dial
-              </span>
-            </div>
-
-            <div
-              class="col-md-10 d-flex flex-column flex-md-row justify-content-start align-items-md-center"
-            >
-              <span class="d-md-flex col me-md-3">
-                <input type="checkbox" class="form-check-input me-md-1" />
-                <label class="form-check-label">Do something else</label>
-                <input
-                  type="text"
-                  class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                />
-              </span>
-
-              <span class="d-md-flex col me-md-auto">
-                <input type="checkbox" class="form-check-input me-md-1" />
-                <label class="form-check-label">Do something else</label>
-                <input
-                  type="text"
-                  class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                />
-              </span>
-            </div>
-          </div>
-
-          <!-- Stones -->
-          <div class="row">
-            <div class="col-md-2 mt-4 my-md-3">
-              <span
-                class="text-center text-md-start d-block d-md-inline fw-light"
-                >Stones
-              </span>
-            </div>
-
-            <div
-              class="col-md-10 d-flex flex-column flex-md-row justify-content-start align-items-md-center"
-            >
-              <span class="d-md-flex col me-md-3">
-                <label class="form-check-label">Do something else</label>
-                <input
-                  type="text"
-                  class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                />
-              </span>
-
-              <span class="d-md-flex col me-md-auto">
-                <label class="form-check-label">Do something else</label>
-              </span>
-            </div>
-          </div>
-        </section>
-
-        <!-- Request from Client -->
-        <section id="request-client" class="mt-3 card card-body shadow-sm">
-          <h3
-            class="text-uppercase text-center text-md-start text-info fs-6 text-decoration-underline"
-          >
-            * Request from client
-          </h3>
-
-          <!-- 1st -->
-          <div class="row">
-            <div class="col-md-12 d-md-flex">
-              <div class="input-group mb-3">
-                <input type="checkbox" class="form-check-input" />
-                <label for="todoSomething">Write something else</label>
-              </div>
-              <div class="input-group mb-3 ms-md-3">
-                <input type="checkbox" class="form-check-input" />
-                <label for="todoSomething">Write something else</label>
-              </div>
-              <div class="input-group mb-3 ms-md-3">
-                <input type="checkbox" class="form-check-input" />
-                <label for="todoSomething">Write something else</label>
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your Label</label>
+                </span>
               </div>
             </div>
+          </div>
 
-            <!-- 2nd -->
-            <div class="row">
-              <div class="col-md-12 d-md-flex">
-                <div class="input-group mb-3">
-                  <input type="checkbox" class="form-check-input" />
-                  <label for="todoSomething">Write something else</label>
-                </div>
-                <div class="input-group mb-3 ms-md-3">
-                  <input type="checkbox" class="form-check-input" />
-                  <label for="todoSomething">Write something else</label>
-                </div>
+          <!-- Second Row -->
+          <div class="row align-items-end my-3">
+            <div class="col-md">
+              <div class="row align-items-end">
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your Label</label>
+                </span>
+
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your Label</label>
+                </span>
               </div>
             </div>
+          </div>
 
-            <!-- 3rd -->
-            <div class="row">
-              <div class="col-md-12 d-md-flex">
-                <div class="input-group mb-3">
-                  <input type="checkbox" class="form-check-input" />
-                  <label for="todoSomething">Write something else</label>
-                </div>
-                <div class="input-group mb-3 ms-md-3">
-                  <input type="checkbox" class="form-check-input" />
-                  <label for="todoSomething">Write something else /</label>
-                </div>
-                <div class="input-group mb-3 ms-md-3">
-                  <input type="checkbox" class="form-check-input" />
-                  <label for="todoSomething">Write something else</label>
-                </div>
+          <!-- Third Row -->
+          <div class="row align-items-end my-3">
+            <div class="col-md">
+              <div class="row align-items-end">
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your Label</label>
+                </span>
+
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your Label /</label>
+                  <input type="checkbox" class="form-check-input mx-1" />
+                  <label for="">Your Label</label>
+                </span>
               </div>
             </div>
+          </div>
 
-            <!-- 4th -->
-            <div class="row">
-              <div class="col-12 d-md-flex">
-                <div class="input-group mb-3">
-                  <input type="checkbox" class="form-check-input" />
-                  <label for="todoSomething">Write something else</label>
-                </div>
-                <div class="input-group mb-3 ms-md-3">
-                  <input type="checkbox" class="form-check-input" />
-                  <label for="todoSomething">Write something else /</label>
-                </div>
-                <div class="input-group mb-3 ms-md-3">
-                  <input type="checkbox" class="form-check-input" />
-                  <label for="todoSomething">Write something else /</label>
-                </div>
-                <div class="input-group mb-3 ms-md-3">
-                  <input type="checkbox" class="form-check-input" />
-                  <label for="todoSomething">Write something else /</label>
+          <!-- Fourth Row -->
+          <div class="row align-items-end my-3">
+            <div class="col-md">
+              <div class="row align-items-end">
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your Label</label>
+                </span>
+
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your Label</label>
+                </span>
+
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your Label / Do something</label>
+                </span>
+
+                <div class="col-6 col-md-1 mb-2 flex-grow-1">
                   <input
                     type="text"
-                    class="form-control border-top-0 border-end-0 border-start-0 flex-grow-1 bg-transparent"
+                    class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0 pt-md-0 w-sm-100"
                   />
                 </div>
-                <div class="input-group mb-3 ms-md-3">
-                  <input type="checkbox" class="form-check-input" />
-                  <label for="todoSomething">Write something else</label>
+
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your Label</label>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fifth Row -->
+          <div class="row align-items-end my-3">
+            <div class="col-md">
+              <div class="row align-items-end">
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your Label</label>
+                </span>
+
+                <div class="col-6 col-md-1 mb-2 flex-grow-1">
+                  <input
+                    type="text"
+                    class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0 pt-md-0 w-sm-100"
+                  />
                 </div>
               </div>
             </div>
+          </div>
 
-            <!-- 5th -->
-            <div class="row">
-              <div class="col-12 d-md-flex">
-                <input type="checkbox" class="form-check-input" />
-                <label for="todoSomething" class="ms-md-1"
-                  >Write something else /</label
-                >
-                <input
-                  type="text"
-                  class="form-control border-top-0 border-end-0 border-start-0 flex-grow-1 bg-transparent"
-                />
+          <!-- Six Row -->
+          <div class="row align-items-end my-3">
+            <div class="col-md">
+              <div class="row align-items-end">
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your Label</label>
+                </span>
+
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your Label</label>
+                </span>
+
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your Label</label>
+                </span>
+
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your Label</label>
+                </span>
               </div>
             </div>
+          </div>
 
-            <!-- 6th -->
-            <div class="row">
-              <div class="col-md-12 d-flex flex-column flex-md-row mt-md-3">
-                <div class="input-group mb-3">
-                  <input type="checkbox" class="form-check-input" />
-                  <label for="todoSomething">Write something else</label>
-                </div>
-                <div class="input-group mb-3 ms-md-3">
-                  <input type="checkbox" class="form-check-input" />
-                  <label for="todoSomething">Write something else</label>
-                </div>
-                <div class="input-group mb-3 ms-md-3">
-                  <input type="checkbox" class="form-check-input" />
-                  <label for="todoSomething">Write something else</label>
-                </div>
-                <div class="input-group mb-3 ms-md-3">
-                  <input type="checkbox" class="form-check-input" />
-                  <label for="todoSomething">Write something else</label>
-                </div>
-              </div>
+          <!-- Seventh Row -->
+          <div class="row align-items-end my-3">
+            <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+              <input type="checkbox" class="form-check-input me-1" />
+              <label for="">Your label will goes here!</label>
+            </span>
+
+            <div class="col-6 col-md-1 mb-2 flex-grow-1">
+              <input
+                type="text"
+                class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0 pt-md-0 w-sm-100"
+              />
             </div>
 
-            <!-- 7th -->
-            <div class="row">
-              <div
-                class="col-md-12 my-md-3 d-flex flex-column flex-md-row align-items-md-center"
+            <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+              <label for="">Your label will goes here!</label>
+            </span>
+
+            <div class="col-6 col-md-1 mb-2 flex-grow-1">
+              <input
+                type="text"
+                class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0 pt-md-0 w-sm-100"
+              />
+            </div>
+
+            <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+              <label for="">Your label will goes here!</label>
+            </span>
+          </div>
+
+          <!-- Eight Row -->
+          <div class="row align-items-end my-3">
+            <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+              <input type="checkbox" class="form-check-input me-1" />
+              <label for="">Your label will goes here!</label>
+            </span>
+
+            <div class="col-6 col-md-1 mb-2 flex-grow-1">
+              <input
+                type="text"
+                class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0 pt-md-0 w-sm-100"
+              />
+            </div>
+          </div>
+
+          <!-- Nine Row -->
+          <div class="row align-items-end my-3">
+            <div class="col-md">
+              <div class="row align-items-end">
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">Your label will goes here!</label>
+                </span>
+
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">1</label>
+                </span>
+
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">2</label>
+                </span>
+
+                <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+                  <input type="checkbox" class="form-check-input me-1" />
+                  <label for="">3</label>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tenth Row -->
+          <div class="row align-items-end my-3">
+            <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+              <label for="">Your label will goes here!</label>
+            </span>
+
+            <div class="col-6 col-md-1 mb-2 flex-grow-1">
+              <input
+                type="text"
+                class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0 pt-md-0 w-sm-100"
+              />
+            </div>
+          </div>
+
+          <!-- Eleventh Row -->
+          <div class="row align-items-end my-3">
+            <div class="col-6 col-md-1 mb-2 flex-grow-1">
+              <input
+                type="text"
+                class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0 pt-md-0 w-sm-100"
+              />
+            </div>
+          </div>
+
+          <!-- Twelveth Row -->
+          <div class="row align-items-end my-3">
+            <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+              <input type="checkbox" class="form-check-input me-1" />
+              <label for="">Your label will goes here!</label>
+            </span>
+
+            <div class="col-6 col-md-1 mb-2 flex-grow-1">
+              <input
+                type="text"
+                class="form-control border-0 bg-transparent border-bottom border-secondary rounded-0 pt-md-0 w-sm-100"
+              />
+            </div>
+            <div class="flex-grow-1">
+              <span class="d-block text-muted"
+                >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Temporibus facilis itaque nam illo quae modi?</span
               >
-                <span class="d-flex col">
-                  <input type="checkbox" class="form-check-input" />
-                  <label class="form-check-label ms-md-1"
-                    >Write something else</label
-                  >
-                  <input
-                    type="text"
-                    class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                  />
-                </span>
-                <span class="d-flex col">
-                  <label class="form-check-label">Write something else</label>
-                  <input
-                    type="text"
-                    class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                  />
-                </span>
-                <span class="ps-md-3 d-flex col">
-                  <label class="form-check-label">Write something else</label>
-                  <input
-                    type="text"
-                    class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                  />
-                </span>
-              </div>
             </div>
+          </div>
 
-            <!-- 8th -->
-            <div class="row">
-              <div
-                class="col-md-12 my-md-3 d-flex flex-column flex-md-row align-items-md-center"
-              >
-                <span class="d-flex col">
-                  <input type="checkbox" class="form-check-input" />
-                  <label class="form-check-label ms-md-1"
-                    >Write something else</label
-                  >
-                  <input
-                    type="text"
-                    class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                  />
-                </span>
-              </div>
-            </div>
-
-            <!-- 9th -->
-            <div class="row">
-              <div class="col-md-12 d-flex flex-column flex-md-row mt-md-3">
-                <div class="input-group mb-3">
-                  <input type="checkbox" class="form-check-input" />
-                  <label for="todoSomething">Write something else</label>
-                </div>
-                <div class="input-group mb-3 ms-md-3">
-                  <input type="checkbox" class="form-check-input" />
-                  <label for="todoSomething">1</label>
-                </div>
-                <div class="input-group mb-3 ms-md-3">
-                  <input type="checkbox" class="form-check-input" />
-                  <label for="todoSomething">2</label>
-                </div>
-                <div class="input-group mb-3 ms-md-3">
-                  <input type="checkbox" class="form-check-input" />
-                  <label for="todoSomething">3</label>
-                </div>
-              </div>
-            </div>
-
-            <!-- 10th -->
-            <div class="row">
-              <div
-                class="col-md-12 my-md-3 d-flex flex-column flex-md-row align-items-md-center"
-              >
-                <span class="d-flex col">
-                  <label class="form-check-label"
-                    >Other Special Request:
-                  </label>
-                  <input
-                    type="text"
-                    class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                  />
-                </span>
-              </div>
-            </div>
-
-            <!-- 11th -->
-            <div class="row">
-              <div
-                class="col-md-12 my-md-3 d-flex flex-column flex-md-row align-items-md-center"
-              >
-                <span class="d-flex col">
-                  <input type="checkbox" class="form-check-input" />
-                  <label class="form-check-label ms-md-1"
-                    >Write something else</label
-                  >
-                  <input
-                    type="text"
-                    class="form-control ms-md-3 border-top-0 border-end-0 border-start-0 me-auto flex-grow-1 bg-transparent"
-                  />
-                </span>
-              </div>
-              <div class="d-flex flex-column">
-                <p class="text-muted">
-                  (Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Veniam, eos?)
-                </p>
-              </div>
-            </div>
-
-            <!-- 12th -->
-            <div class="row">
-              <div
-                class="col-md-12 my-md-3 d-flex flex-column flex-md-row align-items-md-center"
-              >
-                <span class="d-flex col">
-                  <input type="checkbox" class="form-check-input" />
-                  <label class="form-check-label ms-md-1"
-                    >Write something else</label
-                  >
-                </span>
-              </div>
-            </div>
+          <!-- Thirdteen Row -->
+          <div class="row align-items-end my-3">
+            <span class="col-4 col-md-1 mb-2 d-flex w-auto">
+              <input type="checkbox" class="form-check-input me-1" />
+              <label for="">Your label will goes here!</label>
+            </span>
           </div>
         </section>
       </form>
+    </main>
 
-      <footer class="footer text-center mt-5">
-        <div class="row">
-          <div class="col-12 col-md-6 offset-md-4">
-            <div class="d-md-flex justify-content-between align-items-center">
-              <p class="text-center fw-light fs-5">Visible One</p>
-              <div class="">
-                <img
-                  class="img-fluid w-25"
-                  src="./dist/images/VO-logo-icon.svg"
-                  alt="VisibleOne"
-                />
-              </div>
+    <footer class="footer text-center container mt-5">
+      <div class="row">
+        <div class="col-12 col-md-6 offset-md-4">
+          <div class="d-md-flex justify-content-between align-items-center">
+            <p class="text-center fw-light fs-5">Visible One</p>
+            <div class="">
+              <img
+                class="img-fluid w-25"
+                src="./dist/images/badge.svg"
+                alt="VisibleOne"
+              />
             </div>
           </div>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>

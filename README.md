@@ -1,6 +1,6 @@
 # POS Invoice Template
 
-## How to use
+## How you can use and our template?
 
 1. Install the module by using this comment `npm install`
 
