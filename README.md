@@ -6,7 +6,7 @@
 
 2. Run the module by using this comment `npm run compile:sass` to compile the scss files.
 
-3. Open the `index.html` file in the browser with the live server
+3. Open the start with `*.html` file in the browser with the live server
 
 4. Type ngrok command `ngrok http 5555` to get the link by using the port 5555.
 
@@ -16,6 +16,8 @@
 - `scss` folder contains the scss files of the module
 - `chopard.html` is the template file of Chopard
 - `rolex.html` is the template file of Rolex
+- `richmont.html` is the template file of Richmont
+- `swatch-group.html` is the template file of Swatch Group
 
 ## Available Template
 
