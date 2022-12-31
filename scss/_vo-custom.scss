@@ -15,7 +15,7 @@
   width: 45% !important;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 1199px) and (min-width: 999px) {
   #retail-border {
     border-right: var(--bs-border-width) var(--bs-border-style)
       var(--bs-border-color) !important;
@@ -30,7 +30,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 999px) and (min-width: 767px) {
   .adjust-width-input {
     width: 30% !important;
   }
