@@ -1,6 +1,6 @@
 # POS Invoice Template
 
-## How you can use and our template?
+## How you can use our template?
 
 1. Install the module by using this comment `npm install`
 
