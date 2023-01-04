@@ -3,6 +3,11 @@
   box-shadow: none;
 }
 
+// Get rid of all input focus-visible outlines
+*:focus-visible {
+  outline: none;
+}
+
 .fs-ruso {
   font-family: "Russo One", sans-serif;
 }
@@ -49,5 +54,11 @@
 
   .remove-border-right {
     border-right: none !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .w-sm-100 {
+    width: 100% !important;
   }
 }
